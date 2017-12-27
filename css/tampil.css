@@ -1,0 +1,14 @@
+ .pengaduan-masyarakat .form{
+    overflow-y: scroll;
+    padding: 4px;
+    margin-right: 8%;
+    margin-top: 60px;
+    /* border: 1px solid #dddddd; */
+    background: #FFF;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.form .table{
+    color: black;
+}

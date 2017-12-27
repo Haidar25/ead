@@ -1,0 +1,48 @@
+ .menu2 .container ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu2 .container ul li {
+	display: block;
+	position:relative;
+	float: left;
+	 margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 32px;
+    padding-bottom: 29px;
+    font-size: 14px;
+    top: 0px;
+}
+.menu2 .container li ul {
+	display: none;
+}
+.menu2 .container ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	
+	padding: 5px 15px 5px 15px;
+	
+	margin-left: 1px;
+	white-space: nowrap;
+}
+.menu2 .container ul li a:hover {
+	background-color:black;
+}
+.menu2 .container li:hover ul {
+	display:block;
+    position: fixed;	
+}
+.menu2 .container li:hover li {
+	float: none;
+	font-size: 11px;
+}
+.menu2 .container  li:hover a{
+	background: #617F8A;
+}
+.menu2 .container  li:hover li a:hover {
+	background: #95A9B1;
+}

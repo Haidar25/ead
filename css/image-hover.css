@@ -1,0 +1,61 @@
+ 
+/*===General===*/
+
+
+.b1 {
+      width: 250px;
+    height: 300px;
+  background: rgba(255, 255, 255, 0);
+  opacity: 0.8;
+  z-index: 1;
+  position: relative;
+}
+
+.b2 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  background: red;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  -moz-transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}	
+
+
+/*=== Hover Effect === */
+.hover-fade .b1 {
+  background: rgba(255, 255, 255, 0);;
+  overflow: hidden;
+}
+
+
+.hover-fade .b2 p {
+  width: 100px;
+  height: 100px;
+  display: block;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/*=== Fade on Hover === */
+
+.hover-fade .b2 {
+  background: red;
+  position: absolute;
+  opacity: 0;
+  background: rgba(0, 6, 255, 0.28);
+}
+
+.hover-fade .b1 p {
+  font-size: 10px;
+  color: #fff;
+  line-height: 12px;
+  padding: 100px;
+}
+
+.hover-fade .b1:hover .b2 {
+  opacity: 1;
+}
